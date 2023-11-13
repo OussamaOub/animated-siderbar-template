@@ -1,6 +1,6 @@
 # Next.js Animated Sidebar Template
 
-This is a template for creating an animated sidebar component in Next.js. Easily integrate this customizable sidebar into your Next.js projects to enhance navigation and user experience.
+This is a template for creating an animated sidebar component in Next.js.
 
 ## Features
 
@@ -9,8 +9,6 @@ This is a template for creating an animated sidebar component in Next.js. Easily
 - Responsive design for various screen sizes
 
 ## Screenshots
-
-Include screenshots of your animated sidebar in both open and closed states. You can add them to a `screenshots` folder in your repository and reference them in your README.
 
 ![Sidebar Open](screenshots/sidebar_open.png)
 
