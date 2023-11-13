@@ -23,7 +23,7 @@ This is a template for creating an animated sidebar component in Next.js.
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-nextjs-sidebar-template.git
+    git clone https://github.com/OussamaOub/animated-siderbar-template.git
     ```
 
 2. **Install Dependencies:**
