@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Animated Sidebar Template
 
-## Getting Started
+This is a template for creating an animated sidebar component in Next.js. Easily integrate this customizable sidebar into your Next.js projects to enhance navigation and user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Smooth animation for opening and closing the sidebar
+- Customizable styles and appearance
+- Responsive design for various screen sizes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Include screenshots of your animated sidebar in both open and closed states. You can add them to a `screenshots` folder in your repository and reference them in your README.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![Sidebar Open](screenshots/sidebar_open.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+*Caption: The sidebar in the open state, revealing navigation links.*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Sidebar Closed](screenshots/sidebar_closed.png)
 
-## Learn More
+*Caption: The sidebar in the closed state, taking up minimal space.*
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the Repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    git clone https://github.com/your-username/your-nextjs-sidebar-template.git
+    ```
 
-## Deploy on Vercel
+2. **Install Dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Run the Development Server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Customize the Sidebar:**
+
+    - Edit the `Sidebar` component in `components/SideBar.tsx`.
+    - Edit the `Sidebar Context` component in `components/SideBarContext.tsx`.
+    - Adjust styles, add icons, and modify links to suit your project.
+---
+
+Feel free to adapt this template to your specific needs, adding or removing sections as necessary. Make sure to replace placeholder content with your actual repository information, screenshots, and relevant links.
